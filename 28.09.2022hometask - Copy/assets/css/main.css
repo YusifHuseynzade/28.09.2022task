@@ -1,0 +1,266 @@
+header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(/images/bg-masthead.jpg);
+    height: 100vh;
+    font-family: sans-serif;
+    background-position: center;
+    background-size: 100%;
+    }
+.position-fixed {
+    position: fixed;
+    }
+.w-100 {
+    width: 80%;
+    margin: 0 10%;
+    }
+.displayflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.basliq1 {
+    font-weight: 12%;
+    color: rgb(203, 201, 201);
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    }
+.menu li {
+    display: inline-block;
+    }
+.menu li a {
+    color: rgb(201, 201, 201);
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+    transition: 0.3s;
+    }
+.decor {
+    text-decoration: none;
+    }
+li a:hover {
+    color: rgb(244, 244, 244);
+    }
+nav {
+    height: 100px;
+    top: 0;
+    background-color: transparent;
+    opacity: 0.95;
+    }
+.textgray {
+    color: rgb(177, 175, 175);
+}
+.textcenter {
+    text-align: center;
+}
+.basliq1 {
+    font-weight: 400;
+    margin-bottom: 24px;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+}
+.basliq2 {
+    font-weight: 400;
+    margin-bottom: 24px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    letter-spacing: 20px;
+}
+.basliq3 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+}
+.padding-top {
+    padding-top: 15rem;
+}
+.btn {
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.3rem;
+    color: rgb(255, 255, 255);
+    background-color: #64a19d;
+    padding: 25px 30px;
+    cursor: pointer;
+    letter-spacing: 0.25rem;
+    margin-top: 20px;
+    transition: 0.3s;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 15%) !important;
+}
+.btn:hover {
+    background-color: #51908b;
+}
+#About {
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.textwhite {
+    color: white;
+}
+.textblack {
+    color:black
+}
+.basliq4 {
+    padding-top: 10rem;
+    padding-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.basliq5 {
+    font-size: 1.2rem;
+    margin-bottom: 5.8rem;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+.green {
+    color: #64a19d;
+    transition: 0.3s;
+}
+.green:hover {
+    color: #3e5e5b;
+}
+#Project {
+    height: 230vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.item1 {
+    margin-top: 7rem;
+    width: 65%;
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.font-size-h {
+    padding-top: 2rem;
+    font-size: 25px;
+    margin-bottom: 0.6rem;
+    font-weight: lighter;
+    letter-spacing: 0.75px;
+
+}
+.font-size-p {
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 0.75px;
+}
+.item2 {
+    margin-top: 3.5rem;
+    width: 50%;
+    height: 430px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.item3 {
+    margin-top: 3.5rem;
+    width: 50%;
+    height: 430px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.pad-h {
+    padding-top: 160px;
+}
+.item4 {
+    width: 50%;
+    height: 430px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.item5 {
+    width: 50%;
+    height: 430px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#Contact {
+    height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(/images/bg-signup.jpg);
+}
+.input {
+    margin-left: 17rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    padding: 22px 25px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: white;
+}
+.icon-size {
+    font-size: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 1.5rem;
+}
+.basliq6 {
+    padding-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+#ending {
+    height: 80vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.item6 {
+    margin-top: 5rem;
+    width: 30%;
+    height: 210px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 5px;
+}
+.txt-h2end {
+    margin-top: 15px;
+    color: rgb(28, 28, 28);
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+hr {
+    height: 0.1rem;
+    max-width: 3.25rem;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(177, 175, 175);
+    opacity: 1;
+}
+.ic-size2 {
+    font-size: 20px;
+    padding-top: 50px;
+    color: #51908b;
+    
+}
+.ic-size3 {
+    margin-top: 5rem;
+    background-color: rgb(50, 50, 50);
+    border-radius: 50px;
+    padding: 14px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(129, 127, 127);
+    transition: 0.3s;
+    margin-bottom: 5.5rem;
+}
+.a-icon:hover {
+    color: rgb(255, 255, 255);
+}
